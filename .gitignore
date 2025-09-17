@@ -1,1 +1,9 @@
 #add in files you dont want to copy here
+# For Windows systems (convert LF to CRLF on checkout, back to LF on commit)
+git config --global core.autocrlf true
+
+# For Linux/macOS (preserve LF)
+git config --global core.autocrlf input
+
+# To disable conversion entirely
+git config --global core.autocrlf false
