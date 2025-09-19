@@ -1,2 +1,2 @@
 #!/bin/bash
-java -Xmx8G -Xms8G -jar server.jar nogui
+java -Xmx7680M -Xms7680M  -jar fabric-server-mc.1.21.8-loader.0.17.2-launcher.1.1.0.jar nogui
