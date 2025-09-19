@@ -1,10 +1,16 @@
-[16:55:28] [main/INFO]: Loading Minecraft 1.21.8 with Fabric Loader 0.17.2
-[16:55:29] [main/WARN]: Warnings were found!
+[20:15:20] [main/INFO]: Loading Minecraft 1.21.8 with Fabric Loader 0.17.2
+[20:15:20] [main/WARN]: Warnings were found!
  - Mod 'Forge Config API Port' (forgeconfigapiport) 21.8.1 recommends any version of modmenu, which is missing!
 	 - You should install any version of modmenu for the optimal experience.
-[16:55:29] [main/INFO]: Loading 100 mods:
+[20:15:20] [main/INFO]: Loading 114 mods:
+	- architectury 17.0.8
+	- balm 21.8.8
+	   \-- kuma_api 21.8.3
 	- biomesoplenty 21.8.0.17
 	   \-- net_jodah_typetools 0.6.3
+	- biomeswevegone 4.0.1
+	- camerapture 1.10.7
+	   \-- io_github_darkxanter_webp-imageio 0.3.2
 	- cardinal-components 7.0.0-beta.1
 	   |-- cardinal-components-base 7.0.0-beta.1
 	   |-- cardinal-components-block 7.0.0-beta.1
@@ -16,6 +22,7 @@
 	   \-- cardinal-components-world 7.0.0-beta.1
 	- cloth-config 19.0.147
 	   \-- cloth-basic-math 0.6.1
+	- corgilib 7.0.0.0
 	- cristellib 2.0.3
 	   \-- blue_endless_jankson 1.2.3
 	- darksleep 1.0.1
@@ -73,24 +80,30 @@
 	   |-- org_javassist_javassist 3.29.2-GA
 	   \-- org_reflections_reflections 0.10.2
 	- friendsandfoes 4.0.10
+	- geckolib 5.2.2
 	- glitchcore 21.8.0.0
 	   \-- net_jodah_typetools 0.6.3
 	- glow_sticks 7.1.0
 	- goblintraders 1.11.2
+	- hangglider 21.8.0
 	- java 21
-	- jei 19.22.1.316
 	- laserbridges 5.2
 	- mes 1.4.6-1.21.8-fabric
 	- minecraft 1.21.8
+	- mutantmonsters 21.8.0
 	- notenoughanimations 1.10.2
 	   |-- transition 1.0.4
 	   \-- trender 1.0.6
+	- ohthetreesyoullgrow 8.0.1
 	- puzzleslib 21.8.6
 	- refurbished_furniture 1.0.18
 	- resourcefullib 3.6.0
 	   |-- com_teamresourceful_bytecodecs 1.1.3
 	   \-- com_teamresourceful_yabn 1.0.3
+	- roughlyenoughitems 20.0.811
+	   \-- error_notifier 1.0.11
 	- sound_physics_remastered 1.21.8-1.4.15
+	- spookydoors 21.8.2
 	- supermartijn642configlib 1.1.8
 	- supermartijn642corelib 1.1.18+e
 	- t_and_t 1.13.5
@@ -104,6 +117,7 @@
 	   \-- voicechat_api 2.6.0
 	- wormhole 1.1.16
 	- xaerominimap 25.2.12
+	- xaeroworldmap 1.39.13
 	- yet_another_config_lib_v3 3.7.1+1.21.6-fabric
 	   |-- com_twelvemonkeys_common_common-image 3.12.0
 	   |-- com_twelvemonkeys_common_common-io 3.12.0
@@ -113,28 +127,71 @@
 	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
 	   |-- org_quiltmc_parsers_gson 0.2.1
 	   \-- org_quiltmc_parsers_json 0.2.1
-[16:55:29] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/D:/Minecraft/2025Minecraft/ally/libraries/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[16:55:29] [main/INFO]: Compatibility level set to JAVA_17
-[16:55:29] [main/INFO]: Compatibility level set to JAVA_18
-[16:55:29] [main/INFO]: Compatibility level set to JAVA_21
-[16:55:29] [main/WARN]: Reference map 'cristellib-common-common-refmap.json' for cristellib-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[16:55:29] [main/WARN]: Reference map 'deathfinder.fabric.refmap.json' for deathfinder.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[16:55:29] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[16:55:30] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
-[16:55:30] [main/WARN]: Reference map 'visualworkbench.fabric.refmap.json' for visualworkbench.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[16:55:30] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
-[16:55:30] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[16:55:30] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
-[16:55:30] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[16:55:59] [main/INFO]: Reflections took 558 ms to scan 3 urls, producing 12 keys and 163 values
-[16:56:01] [main/INFO]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
-[16:56:03] [main/INFO]: Constructing components for deathfinder:common
-[16:56:04] [main/INFO]: Deserializing FriendsAndFoesConfig from 'config\friendsandfoes.json'
-[16:56:06] [main/INFO]: Initializing Glow Sticks (Fabric) ...
-[16:56:06] [main/INFO]: Register Glow Sticks Constants ...
-[16:56:06] [main/INFO]: Register Glow Sticks Config ...
-[16:56:06] [main/INFO]: [Config] Updated configuration path to .\config\glow_sticks
-[16:56:06] [main/INFO]: [Config]   Glow Sticks Configuration
+[20:15:21] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/D:/Minecraft/2025Minecraft/ally/libraries/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[20:15:22] [main/INFO]: Compatibility level set to JAVA_16
+[20:15:22] [main/INFO]: Compatibility level set to JAVA_17
+[20:15:22] [main/INFO]: Compatibility level set to JAVA_21
+[20:15:23] [main/WARN]: Reference map 'cristellib-common-common-refmap.json' for cristellib-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:15:23] [main/WARN]: Reference map 'deathfinder.fabric.refmap.json' for deathfinder.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:15:23] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:15:23] [main/WARN]: Reference map 'hangglider.fabric.refmap.json' for hangglider.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:15:23] [main/WARN]: Reference map 'mutantmonsters.fabric.refmap.json' for mutantmonsters.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:15:23] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:15:23] [main/WARN]: Reference map 'visualworkbench.fabric.refmap.json' for visualworkbench.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:15:23] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:15:23] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:15:24] [main/WARN]: Error loading class: net/minecraft/class_897 (java.lang.ClassNotFoundException: net/minecraft/class_897)
+[20:15:24] [main/WARN]: @Mixin target net.minecraft.class_897 was not found geckolib.mixins.json:client.EntityRendererMixin from mod geckolib
+[20:15:24] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
+[20:15:25] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[20:15:30] [main/WARN]: Method overwrite conflict for scheduleRandomTick in ohthetreesyoullgrow.mixins.json:chunk.MixinChunkAccess from mod ohthetreesyoullgrow, previously written by corgitaco.corgilib.mixin.chunk.MixinChunkAccess. Skipping method.
+[20:15:30] [main/WARN]: Method overwrite conflict for getScheduledRandomTicks in ohthetreesyoullgrow.mixins.json:chunk.MixinChunkAccess from mod ohthetreesyoullgrow, previously written by corgitaco.corgilib.mixin.chunk.MixinChunkAccess. Skipping method.
+[20:15:34] [main/INFO]: Reflections took 349 ms to scan 3 urls, producing 12 keys and 163 values
+[20:15:35] [main/INFO]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
+[20:15:36] [main/INFO]: Initializing network...
+[20:15:36] [main/INFO]: Initialized network!
+[20:15:36] [main/INFO]: Registering Oh The Biomes We've Gone data components
+[20:15:37] [main/INFO]: Registering Oh The Biomes We've Gone items
+[20:15:37] [main/INFO]: Registering Oh The Biomes We've Gone Blocks
+[20:15:37] [main/INFO]: Registering Oh The Biomes We've Gone Wood
+[20:15:37] [main/INFO]: Registering Oh The Biomes We've Gone Block Entities
+[20:15:37] [main/INFO]: Registering Oh The Biomes We've Gone Entities
+[20:15:37] [main/INFO]: Registering Oh The Biomes We've Gone Creative Tabs
+[20:15:37] [main/INFO]: Registering Oh The Biomes We've Gone Sounds
+[20:15:37] [main/INFO]: Registering Oh The Biomes We've Gone Block Predicate
+[20:15:37] [main/INFO]: Registering Oh The Biomes We've Gone State Providers
+[20:15:37] [main/INFO]: Registering Oh The Biomes We've Gone Tree Decorators
+[20:15:37] [main/INFO]: Registering Oh The Biomes We've Gone Custom Features
+[20:15:37] [main/INFO]: Registering Oh The Biomes We've Gone Structure Pieces
+[20:15:37] [main/INFO]: Registering Oh The Biomes We've Gone Custom Structure Types
+[20:15:37] [main/INFO]: Registering Oh The Biomes We've Gone Configured Features
+[20:15:37] [main/INFO]: Creating and Registering Overworld Vegetation Configured Features
+[20:15:37] [main/INFO]: Registering Oh The Biomes We've Gone Tree Configured Features
+[20:15:37] [main/INFO]: Creating and Registering Vanilla Configured Features
+[20:15:37] [main/INFO]: Registering Oh The Biomes You'll Go Overworld Configured Features
+[20:15:37] [main/INFO]: Registering Oh The Biomes We've Gone Placed Features
+[20:15:37] [main/INFO]: Creating and Registering Overworld Tree Placed Features
+[20:15:37] [main/INFO]: Creating and Registering Overworld Vegetation Placed Features
+[20:15:37] [main/INFO]: Creating and Registering Vanilla Placed Features
+[20:15:37] [main/INFO]: Registering Oh The Biomes We've Gone Custom Surface Rules
+[20:15:37] [main/INFO]: Registering Oh The Biomes We've Gone Template Pools
+[20:15:37] [main/INFO]: Registering Oh The Biome's We've Gone Village Template Pools
+[20:15:37] [main/INFO]: Registering Oh The Biomes We've Gone Poi Types
+[20:15:37] [main/INFO]: Registering Oh The Biomes We've Gone Villager Professions
+[20:15:37] [main/INFO]: Registering Oh The Biomes We've Gone Custom Structure Processors
+[20:15:37] [main/INFO]: Registering Oh The Biomes We've Gone villager types
+[20:15:37] [main/INFO]: Registering Oh The Biomes We've Gone Schedules
+[20:15:37] [main/INFO]: Registering Oh The Biomes We've Gone Memory Module Types
+[20:15:37] [main/INFO]: Registering Oh The Biomes We've Gone Sensor Types
+[20:15:37] [main/INFO]: Registering Oh The Biomes We've Gone Map Decoration Types
+[20:15:37] [main/INFO]: Creating and Registering BWG Biome Modifiers for Vanilla Biomes
+[20:15:37] [main/INFO]: Constructing components for deathfinder:common
+[20:15:37] [main/INFO]: Deserializing FriendsAndFoesConfig from 'config\friendsandfoes.json'
+[20:15:38] [main/INFO]: Initializing Glow Sticks (Fabric) ...
+[20:15:38] [main/INFO]: Register Glow Sticks Constants ...
+[20:15:38] [main/INFO]: Register Glow Sticks Config ...
+[20:15:38] [main/INFO]: [Config] Updated configuration path to .\config\glow_sticks
+[20:15:38] [main/INFO]: [Config]   Glow Sticks Configuration
 
   This file contains the configuration for the Glow Sticks mod.
   You can enable or disable features and adjust settings as needed.
@@ -156,60 +213,75 @@
   - waypointVerticalSearchRadius: Vertical radius in blocks to search for nearest glow stick. Default: 16
 
  is up to date: {spawnRandomParticles=true, waypointSearchRadius=32, despawnTicks=2, randomParticleSpawnRate=25, despawnEnabled=true, waypointVerticalSearchRadius=16, spawnWaypointParticles=true}
-[16:56:06] [main/INFO]: Register Glow Sticks Data Components ...
-[16:56:06] [main/INFO]: Glow Sticks Data Components ...
-[16:56:06] [main/INFO]: Register Glow Sticks Items ...
-[16:56:06] [main/INFO]: Register Glow Sticks Blocks ...
-[16:56:06] [main/INFO]: Register Glow Sticks Entities ...
-[16:56:06] [main/INFO]: Constructing components for puzzleslib:common
-[16:56:07] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[16:56:07] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
-[16:56:07] [main/INFO]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
-[16:56:07] [main/INFO]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
-[16:56:07] [main/INFO]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
-[16:56:07] [main/INFO]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
-[16:56:07] [main/INFO]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
-[16:56:14] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
-[16:56:14] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
-[16:56:14] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
-[16:56:14] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
-[16:56:14] [main/INFO]: Deserializing ModMobsConfig from 'config\variantsandventures\mod_mobs.json'
-[16:56:14] [main/INFO]: Deserializing VanillaMobsConfig from 'config\variantsandventures\vanilla_mobs.json'
-[16:56:14] [main/INFO]: Constructing components for visualworkbench:common
-[16:56:14] [main/INFO]: Dispatching loading event for config visualworkbench-common.toml
-[16:56:15] [main/INFO]: [voicechat] Compatibility version 20
-[16:56:15] [main/INFO]: [voicechat] Loading plugins
-[16:56:15] [main/INFO]: [voicechat] Loaded 1 plugin(s)
-[16:56:15] [main/INFO]: [voicechat] Initializing plugins
-[16:56:15] [main/INFO]: Initializing Simple Voice Chat integration
-[16:56:15] [main/INFO]: [voicechat] Initialized 1 plugin(s)
-[16:56:15] [main/INFO]: [voicechat] Registering events for 'sound_physics_remastered'
-[16:56:15] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[16:56:16] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[16:56:16] [main/ERROR]: Failed to start the minecraft server
-java.io.IOException: The process cannot access the file because another process has locked a portion of the file
-	at java.base/sun.nio.ch.FileDispatcherImpl.write0(Native Method) ~[?:?]
-	at java.base/sun.nio.ch.FileDispatcherImpl.write(FileDispatcherImpl.java:75) ~[?:?]
-	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137) ~[?:?]
-	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:81) ~[?:?]
-	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
-	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:300) ~[?:?]
-	at knot/net.minecraft.class_5125.method_26803(class_5125.java:37) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_32$class_5143.<init>(class_32.java:374) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_32.method_52236(class_32.java:353) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.Main.main(Main.java:140) [server-intermediary.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:506) [fabric-loader-0.17.2.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72) [fabric-loader-0.17.2.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.17.2.jar:?]
-	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.17.2.jar:?]
-	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-mc.1.21.8-loader.0.17.2-launcher.1.1.0.jar:1.1.0]
-ent for config deathfinder-server.toml
-[16:56:07] [Server thread/INFO]: Loading server configs...
-[16:56:07] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[16:56:07] [Server thread/INFO]: Loading properties
-[16:56:07] [Server thread/INFO]: Default game type: SURVIVAL
-[16:56:07] [Server thread/INFO]: Generating keypair
-[16:56:07] [Server console handler/ERROR]: Exception handling console input
+[20:15:38] [main/INFO]: Register Glow Sticks Data Components ...
+[20:15:38] [main/INFO]: Glow Sticks Data Components ...
+[20:15:38] [main/INFO]: Register Glow Sticks Items ...
+[20:15:38] [main/INFO]: Register Glow Sticks Blocks ...
+[20:15:38] [main/INFO]: Register Glow Sticks Entities ...
+[20:15:38] [main/INFO]: Constructing components for hangglider:common
+[20:15:38] [main/INFO]: Constructing components for mutantmonsters:common
+[20:15:38] [main/INFO]: Dispatching loading event for config mutantmonsters-common.toml
+[20:15:39] [main/INFO]: Constructing components for puzzleslib:common
+[20:15:39] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[20:15:39] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REICommonPlugin
+[20:15:39] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REICommonPlugin
+[20:15:39] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REICommonPlugin
+[20:15:39] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[20:15:39] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
+[20:15:39] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[20:15:39] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[20:15:39] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
+[20:15:39] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[20:15:39] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[20:15:39] [main/INFO]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[20:15:39] [main/INFO]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[20:15:39] [main/INFO]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[20:15:39] [main/INFO]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[20:15:39] [main/INFO]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[20:15:39] [main/INFO]: Registered region biomeswevegone:region_0 to index 4 for type OVERWORLD
+[20:15:39] [main/INFO]: Registered region biomeswevegone:region_1 to index 5 for type OVERWORLD
+[20:15:39] [main/INFO]: Registered region biomeswevegone:region_2 to index 6 for type OVERWORLD
+[20:15:39] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
+[20:15:39] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
+[20:15:39] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
+[20:15:40] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
+[20:15:40] [main/INFO]: Deserializing ModMobsConfig from 'config\variantsandventures\mod_mobs.json'
+[20:15:40] [main/INFO]: Deserializing VanillaMobsConfig from 'config\variantsandventures\vanilla_mobs.json'
+[20:15:40] [main/INFO]: Constructing components for visualworkbench:common
+[20:15:40] [main/INFO]: Dispatching loading event for config visualworkbench-common.toml
+[20:15:40] [main/INFO]: [voicechat] Compatibility version 20
+[20:15:40] [main/INFO]: [voicechat] Loading plugins
+[20:15:40] [main/INFO]: [voicechat] Loaded 1 plugin(s)
+[20:15:40] [main/INFO]: [voicechat] Initializing plugins
+[20:15:40] [main/INFO]: Initializing Simple Voice Chat integration
+[20:15:40] [main/INFO]: [voicechat] Initialized 1 plugin(s)
+[20:15:40] [main/INFO]: [voicechat] Registering events for 'sound_physics_remastered'
+[20:15:40] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[20:15:40] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[20:15:40] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:15:40] [main/INFO]: Found new data pack balm, loading it automatically
+[20:15:40] [main/INFO]: Found new data pack biomeswevegone, loading it automatically
+[20:15:40] [main/INFO]: Found new data pack camerapture, loading it automatically
+[20:15:40] [main/INFO]: Found new data pack hangglider, loading it automatically
+[20:15:40] [main/INFO]: Found new data pack mutantmonsters, loading it automatically
+[20:15:40] [main/INFO]: Found new data pack ohthetreesyoullgrow, loading it automatically
+[20:15:40] [main/INFO]: Found new data pack spookydoors, loading it automatically
+[20:15:43] [main/INFO]: Loaded 3412 recipes
+[20:15:43] [main/INFO]: Loaded 3561 advancements
+[20:15:43] [main/INFO]: Loaded 1 moobloom variants
+[20:15:44] [main/INFO]: Loaded 32 entity animations
+[20:15:45] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[20:15:45] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[20:15:45] [main/INFO]: Applied 944 biome modifications to 189 of 189 new biomes in 98.76 ms
+[20:15:45] [Server thread/INFO]: Dispatching loading event for config deathfinder-server.toml
+[20:15:45] [Server thread/INFO]: Dispatching loading event for config hangglider-server.toml
+[20:15:45] [Server thread/INFO]: Dispatching loading event for config mutantmonsters-server.toml
+[20:15:45] [Server thread/INFO]: Loading server configs...
+[20:15:45] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[20:15:45] [Server thread/INFO]: Loading properties
+[20:15:45] [Server thread/INFO]: Default game type: SURVIVAL
+[20:15:45] [Server thread/INFO]: Generating keypair
+[20:15:45] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: The handle is invalid
 	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
 	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
@@ -226,114 +298,50 @@ java.io.IOException: The handle is invalid
 	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
 	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
 	at knot/net.minecraft.class_3176$1.run(class_3176.java:102) [server-intermediary.jar:?]
-[16:56:07] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:56:07] [Server thread/INFO]: Using default channel type
-[16:56:07] [Server thread/INFO]: Preparing level "world"
-[16:56:08] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:56:13] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[16:56:13] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[16:56:13] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[16:56:13] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[16:56:13] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[16:56:13] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[16:56:13] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[16:56:13] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[16:56:13] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[16:56:13] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:56:13] [Server thread/INFO]: Time elapsed: 4558 ms
-[16:56:13] [Server thread/INFO]: Done (5.358s)! For help, type "help"
-[16:56:13] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
-[16:56:13] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[16:57:13] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[16:57:18] [Server thread/INFO]: Stopping server
-[16:57:18] [Server thread/INFO]: Saving players
-[16:57:18] [Server thread/INFO]: Saving worlds
-[16:57:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[16:57:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[16:57:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[16:57:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[16:57:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16:57:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16:57:19] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[16:57:19] [Server thread/INFO]: Unloading server configs...
-[16:57:19] [Server thread/INFO]: Sending config unload event for refurbished_furniture.server.toml
-[16:57:19] [Server thread/INFO]: Sending config unload event for goblintraders-entities.toml
-[16:57:19] [Server thread/INFO]: Finished unloading server configs
-[16:57:19] [Server thread/INFO]: Dispatching unloading event for config deathfinder-server.toml
-s to scan 3 urls, producing 12 keys and 163 values
-[16:56:21] [main/INFO]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
-[16:56:22] [main/INFO]: Constructing components for deathfinder:common
-[16:56:22] [main/INFO]: Deserializing FriendsAndFoesConfig from 'config\friendsandfoes.json'
-[16:56:23] [main/INFO]: Initializing Glow Sticks (Fabric) ...
-[16:56:23] [main/INFO]: Register Glow Sticks Constants ...
-[16:56:23] [main/INFO]: Register Glow Sticks Config ...
-[16:56:23] [main/INFO]: [Config] Updated configuration path to .\config\glow_sticks
-[16:56:23] [main/INFO]: [Config]   Glow Sticks Configuration
-
-  This file contains the configuration for the Glow Sticks mod.
-  You can enable or disable features and adjust settings as needed.
-
-  Glow Stick Despawn:
-  - despawnEnabled: Enable or disable the automatic despawn of glow sticks.
-  - despawnTicks: Controls the aging probability of glow sticks during random ticks.
-    A value of 1 means every random tick has a 100% chance to age the glow stick.
-    A value of 2 means every random tick has a 50% chance to age the glow stick.
-    A value of 5 means every random tick has a 20% chance to age the glow stick.
-    Higher values make glow sticks last longer on average.
-    When a glow stick reaches age 15, it will despawn automatically.
-
-  Particle Effects (Client Side Only):
-  - spawnRandomParticles: Enable or disable random glow particles from placed glow sticks.
-  - randomParticleSpawnRate: How often random glow particles spawn (higher = less frequent). Default: 25
-  - spawnWaypointParticles: Enable waypoint particles when sneaking and holding a glow stick to show path to nearest matching glow stick.
-  - waypointSearchRadius: Horizontal radius in blocks to search for nearest glow stick. Default: 32
-  - waypointVerticalSearchRadius: Vertical radius in blocks to search for nearest glow stick. Default: 16
-
- is up to date: {spawnRandomParticles=true, waypointSearchRadius=32, despawnTicks=2, randomParticleSpawnRate=25, despawnEnabled=true, waypointVerticalSearchRadius=16, spawnWaypointParticles=true}
-[16:56:23] [main/INFO]: Register Glow Sticks Data Components ...
-[16:56:23] [main/INFO]: Glow Sticks Data Components ...
-[16:56:23] [main/INFO]: Register Glow Sticks Items ...
-[16:56:23] [main/INFO]: Register Glow Sticks Blocks ...
-[16:56:23] [main/INFO]: Register Glow Sticks Entities ...
-[16:56:23] [main/INFO]: Constructing components for puzzleslib:common
-[16:56:23] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[16:56:23] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
-[16:56:23] [main/INFO]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
-[16:56:23] [main/INFO]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
-[16:56:23] [main/INFO]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
-[16:56:23] [main/INFO]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
-[16:56:23] [main/INFO]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
-[16:56:24] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
-[16:56:24] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
-[16:56:24] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
-[16:56:24] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
-[16:56:24] [main/INFO]: Deserializing ModMobsConfig from 'config\variantsandventures\mod_mobs.json'
-[16:56:24] [main/INFO]: Deserializing VanillaMobsConfig from 'config\variantsandventures\vanilla_mobs.json'
-[16:56:24] [main/INFO]: Constructing components for visualworkbench:common
-[16:56:24] [main/INFO]: Dispatching loading event for config visualworkbench-common.toml
-[16:56:24] [main/INFO]: [voicechat] Compatibility version 20
-[16:56:24] [main/INFO]: [voicechat] Loading plugins
-[16:56:24] [main/INFO]: [voicechat] Loaded 1 plugin(s)
-[16:56:24] [main/INFO]: [voicechat] Initializing plugins
-[16:56:24] [main/INFO]: Initializing Simple Voice Chat integration
-[16:56:24] [main/INFO]: [voicechat] Initialized 1 plugin(s)
-[16:56:24] [main/INFO]: [voicechat] Registering events for 'sound_physics_remastered'
-[16:56:24] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[16:56:24] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[16:56:25] [main/ERROR]: Failed to start the minecraft server
-java.io.IOException: The process cannot access the file because another process has locked a portion of the file
-	at java.base/sun.nio.ch.FileDispatcherImpl.write0(Native Method) ~[?:?]
-	at java.base/sun.nio.ch.FileDispatcherImpl.write(FileDispatcherImpl.java:75) ~[?:?]
-	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137) ~[?:?]
-	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:81) ~[?:?]
-	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
-	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:300) ~[?:?]
-	at knot/net.minecraft.class_5125.method_26803(class_5125.java:37) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_32$class_5143.<init>(class_32.java:374) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_32.method_52236(class_32.java:353) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.Main.main(Main.java:140) [server-intermediary.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:506) [fabric-loader-0.17.2.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72) [fabric-loader-0.17.2.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.17.2.jar:?]
-	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.17.2.jar:?]
-	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-mc.1.21.8-loader.0.17.2-launcher.1.1.0.jar:1.1.0]
+[20:15:45] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:15:46] [Server thread/INFO]: Using default channel type
+[20:15:46] [Server thread/INFO]: Preparing level "world"
+[20:15:47] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:15:50] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:15:50] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:15:50] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:15:50] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:15:50] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:15:50] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:15:50] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:15:50] [Server thread/INFO]: Time elapsed: 3390 ms
+[20:15:50] [Server thread/INFO]: Done (4.229s)! For help, type "help"
+[20:15:50] [Server thread/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
+[20:15:50] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for START.
+[20:15:50] [Server thread/INFO]: [REI] Plugins (3):
+[20:15:50] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[20:15:50] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[20:15:50] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[20:15:50] [Server thread/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
+[20:15:50] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for START in 1.254 ms, totaling 105.6 ms.
+[20:15:50] [Server thread/INFO]: [REI] ----------------------------------------
+[20:15:50] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for END.
+[20:15:50] [Server thread/INFO]: [REI] Plugins (3):
+[20:15:50] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[20:15:50] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[20:15:50] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[20:15:50] [Server thread/INFO]: [REI] ----------------------------------------
+[20:15:50] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for END in 649.8 μs, totaling 88.50 ms.
+[20:15:50] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[20:15:50] [Server thread/INFO]: Stopping server
+[20:15:50] [Server thread/INFO]: Saving players
+[20:15:50] [Server thread/INFO]: Saving worlds
+[20:15:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:15:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[20:15:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[20:15:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:15:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:15:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:15:51] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:15:51] [Server thread/INFO]: Unloading server configs...
+[20:15:51] [Server thread/INFO]: Sending config unload event for refurbished_furniture.server.toml
+[20:15:51] [Server thread/INFO]: Sending config unload event for goblintraders-entities.toml
+[20:15:51] [Server thread/INFO]: Finished unloading server configs
+[20:15:51] [Server thread/INFO]: Dispatching unloading event for config deathfinder-server.toml
+[20:15:51] [Server thread/INFO]: Dispatching unloading event for config hangglider-server.toml
+[20:15:51] [Server thread/INFO]: Dispatching unloading event for config mutantmonsters-server.toml
